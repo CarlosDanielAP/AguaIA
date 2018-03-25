@@ -1,0 +1,3312 @@
+fileFormatVersion: 2
+guid: c7dcf0197128a044c8ab217d3f6c1bc2
+timeCreated: 1519050887
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SNES - Chrono Trigger - Crono_0
+    21300002: SNES - Chrono Trigger - Crono_1
+    21300004: SNES - Chrono Trigger - Crono_2
+    21300006: SNES - Chrono Trigger - Crono_3
+    21300008: SNES - Chrono Trigger - Crono_4
+    21300010: SNES - Chrono Trigger - Crono_5
+    21300012: SNES - Chrono Trigger - Crono_6
+    21300014: SNES - Chrono Trigger - Crono_7
+    21300016: SNES - Chrono Trigger - Crono_8
+    21300018: SNES - Chrono Trigger - Crono_9
+    21300020: SNES - Chrono Trigger - Crono_10
+    21300022: SNES - Chrono Trigger - Crono_11
+    21300024: SNES - Chrono Trigger - Crono_12
+    21300026: SNES - Chrono Trigger - Crono_13
+    21300028: SNES - Chrono Trigger - Crono_14
+    21300030: SNES - Chrono Trigger - Crono_15
+    21300032: SNES - Chrono Trigger - Crono_16
+    21300034: SNES - Chrono Trigger - Crono_17
+    21300036: SNES - Chrono Trigger - Crono_18
+    21300038: SNES - Chrono Trigger - Crono_19
+    21300040: SNES - Chrono Trigger - Crono_20
+    21300042: SNES - Chrono Trigger - Crono_21
+    21300044: SNES - Chrono Trigger - Crono_22
+    21300046: SNES - Chrono Trigger - Crono_23
+    21300048: SNES - Chrono Trigger - Crono_24
+    21300050: SNES - Chrono Trigger - Crono_25
+    21300052: SNES - Chrono Trigger - Crono_26
+    21300054: SNES - Chrono Trigger - Crono_27
+    21300056: SNES - Chrono Trigger - Crono_28
+    21300058: SNES - Chrono Trigger - Crono_29
+    21300060: SNES - Chrono Trigger - Crono_30
+    21300062: SNES - Chrono Trigger - Crono_31
+    21300064: SNES - Chrono Trigger - Crono_32
+    21300066: SNES - Chrono Trigger - Crono_33
+    21300068: SNES - Chrono Trigger - Crono_34
+    21300070: SNES - Chrono Trigger - Crono_35
+    21300072: SNES - Chrono Trigger - Crono_36
+    21300074: SNES - Chrono Trigger - Crono_37
+    21300076: SNES - Chrono Trigger - Crono_38
+    21300078: SNES - Chrono Trigger - Crono_39
+    21300080: SNES - Chrono Trigger - Crono_40
+    21300082: SNES - Chrono Trigger - Crono_41
+    21300084: SNES - Chrono Trigger - Crono_42
+    21300086: SNES - Chrono Trigger - Crono_43
+    21300088: SNES - Chrono Trigger - Crono_44
+    21300090: SNES - Chrono Trigger - Crono_45
+    21300092: SNES - Chrono Trigger - Crono_46
+    21300094: SNES - Chrono Trigger - Crono_47
+    21300096: SNES - Chrono Trigger - Crono_48
+    21300098: SNES - Chrono Trigger - Crono_49
+    21300100: SNES - Chrono Trigger - Crono_50
+    21300102: SNES - Chrono Trigger - Crono_51
+    21300104: SNES - Chrono Trigger - Crono_52
+    21300106: SNES - Chrono Trigger - Crono_53
+    21300108: SNES - Chrono Trigger - Crono_54
+    21300110: SNES - Chrono Trigger - Crono_55
+    21300112: SNES - Chrono Trigger - Crono_56
+    21300114: SNES - Chrono Trigger - Crono_57
+    21300116: SNES - Chrono Trigger - Crono_58
+    21300118: SNES - Chrono Trigger - Crono_59
+    21300120: SNES - Chrono Trigger - Crono_60
+    21300122: SNES - Chrono Trigger - Crono_61
+    21300124: SNES - Chrono Trigger - Crono_62
+    21300126: SNES - Chrono Trigger - Crono_63
+    21300128: SNES - Chrono Trigger - Crono_64
+    21300130: SNES - Chrono Trigger - Crono_65
+    21300132: SNES - Chrono Trigger - Crono_66
+    21300134: SNES - Chrono Trigger - Crono_67
+    21300136: SNES - Chrono Trigger - Crono_68
+    21300138: SNES - Chrono Trigger - Crono_69
+    21300140: SNES - Chrono Trigger - Crono_70
+    21300142: SNES - Chrono Trigger - Crono_71
+    21300144: SNES - Chrono Trigger - Crono_72
+    21300146: SNES - Chrono Trigger - Crono_73
+    21300148: SNES - Chrono Trigger - Crono_74
+    21300150: SNES - Chrono Trigger - Crono_75
+    21300152: SNES - Chrono Trigger - Crono_76
+    21300154: SNES - Chrono Trigger - Crono_77
+    21300156: SNES - Chrono Trigger - Crono_78
+    21300158: SNES - Chrono Trigger - Crono_79
+    21300160: SNES - Chrono Trigger - Crono_80
+    21300162: SNES - Chrono Trigger - Crono_81
+    21300164: SNES - Chrono Trigger - Crono_82
+    21300166: SNES - Chrono Trigger - Crono_83
+    21300168: SNES - Chrono Trigger - Crono_84
+    21300170: SNES - Chrono Trigger - Crono_85
+    21300172: SNES - Chrono Trigger - Crono_86
+    21300174: SNES - Chrono Trigger - Crono_87
+    21300176: SNES - Chrono Trigger - Crono_88
+    21300178: SNES - Chrono Trigger - Crono_89
+    21300180: SNES - Chrono Trigger - Crono_90
+    21300182: SNES - Chrono Trigger - Crono_91
+    21300184: SNES - Chrono Trigger - Crono_92
+    21300186: SNES - Chrono Trigger - Crono_93
+    21300188: SNES - Chrono Trigger - Crono_94
+    21300190: SNES - Chrono Trigger - Crono_95
+    21300192: SNES - Chrono Trigger - Crono_96
+    21300194: SNES - Chrono Trigger - Crono_97
+    21300196: SNES - Chrono Trigger - Crono_98
+    21300198: SNES - Chrono Trigger - Crono_99
+    21300200: SNES - Chrono Trigger - Crono_100
+    21300202: SNES - Chrono Trigger - Crono_101
+    21300204: SNES - Chrono Trigger - Crono_102
+    21300206: SNES - Chrono Trigger - Crono_103
+    21300208: SNES - Chrono Trigger - Crono_104
+    21300210: SNES - Chrono Trigger - Crono_105
+    21300212: SNES - Chrono Trigger - Crono_106
+    21300214: SNES - Chrono Trigger - Crono_107
+    21300216: SNES - Chrono Trigger - Crono_108
+    21300218: SNES - Chrono Trigger - Crono_109
+    21300220: SNES - Chrono Trigger - Crono_110
+    21300222: SNES - Chrono Trigger - Crono_111
+    21300224: SNES - Chrono Trigger - Crono_112
+    21300226: SNES - Chrono Trigger - Crono_113
+    21300228: SNES - Chrono Trigger - Crono_114
+    21300230: SNES - Chrono Trigger - Crono_115
+    21300232: SNES - Chrono Trigger - Crono_116
+    21300234: SNES - Chrono Trigger - Crono_117
+    21300236: SNES - Chrono Trigger - Crono_118
+    21300238: SNES - Chrono Trigger - Crono_119
+    21300240: SNES - Chrono Trigger - Crono_120
+    21300242: SNES - Chrono Trigger - Crono_121
+    21300244: SNES - Chrono Trigger - Crono_122
+    21300246: SNES - Chrono Trigger - Crono_123
+    21300248: SNES - Chrono Trigger - Crono_124
+    21300250: SNES - Chrono Trigger - Crono_125
+    21300252: SNES - Chrono Trigger - Crono_126
+    21300254: SNES - Chrono Trigger - Crono_127
+    21300256: SNES - Chrono Trigger - Crono_128
+    21300258: SNES - Chrono Trigger - Crono_129
+    21300260: SNES - Chrono Trigger - Crono_130
+    21300262: SNES - Chrono Trigger - Crono_131
+    21300264: SNES - Chrono Trigger - Crono_132
+    21300266: SNES - Chrono Trigger - Crono_133
+    21300268: SNES - Chrono Trigger - Crono_134
+    21300270: SNES - Chrono Trigger - Crono_135
+    21300272: SNES - Chrono Trigger - Crono_136
+    21300274: SNES - Chrono Trigger - Crono_137
+    21300276: SNES - Chrono Trigger - Crono_138
+    21300278: SNES - Chrono Trigger - Crono_139
+    21300280: SNES - Chrono Trigger - Crono_140
+    21300282: SNES - Chrono Trigger - Crono_141
+    21300284: SNES - Chrono Trigger - Crono_142
+    21300286: SNES - Chrono Trigger - Crono_143
+    21300288: SNES - Chrono Trigger - Crono_144
+    21300290: SNES - Chrono Trigger - Crono_145
+    21300292: SNES - Chrono Trigger - Crono_146
+    21300294: SNES - Chrono Trigger - Crono_147
+    21300296: SNES - Chrono Trigger - Crono_148
+    21300298: SNES - Chrono Trigger - Crono_149
+    21300300: SNES - Chrono Trigger - Crono_150
+    21300302: SNES - Chrono Trigger - Crono_151
+    21300304: SNES - Chrono Trigger - Crono_152
+    21300306: SNES - Chrono Trigger - Crono_153
+    21300308: SNES - Chrono Trigger - Crono_154
+    21300310: SNES - Chrono Trigger - Crono_155
+    21300312: SNES - Chrono Trigger - Crono_156
+    21300314: SNES - Chrono Trigger - Crono_157
+    21300316: SNES - Chrono Trigger - Crono_158
+    21300318: SNES - Chrono Trigger - Crono_159
+    21300320: SNES - Chrono Trigger - Crono_160
+    21300322: SNES - Chrono Trigger - Crono_161
+    21300324: SNES - Chrono Trigger - Crono_162
+    21300326: SNES - Chrono Trigger - Crono_163
+    21300328: SNES - Chrono Trigger - Crono_164
+    21300330: SNES - Chrono Trigger - Crono_165
+    21300332: SNES - Chrono Trigger - Crono_166
+    21300334: SNES - Chrono Trigger - Crono_167
+    21300336: SNES - Chrono Trigger - Crono_168
+    21300338: SNES - Chrono Trigger - Crono_169
+    21300340: SNES - Chrono Trigger - Crono_170
+    21300342: SNES - Chrono Trigger - Crono_171
+    21300344: SNES - Chrono Trigger - Crono_172
+    21300346: SNES - Chrono Trigger - Crono_173
+    21300348: SNES - Chrono Trigger - Crono_174
+    21300350: SNES - Chrono Trigger - Crono_175
+    21300352: SNES - Chrono Trigger - Crono_176
+    21300354: SNES - Chrono Trigger - Crono_177
+    21300356: SNES - Chrono Trigger - Crono_178
+    21300358: SNES - Chrono Trigger - Crono_179
+    21300360: SNES - Chrono Trigger - Crono_180
+    21300362: SNES - Chrono Trigger - Crono_181
+    21300364: SNES - Chrono Trigger - Crono_182
+    21300366: SNES - Chrono Trigger - Crono_183
+    21300368: SNES - Chrono Trigger - Crono_184
+    21300370: SNES - Chrono Trigger - Crono_185
+    21300372: SNES - Chrono Trigger - Crono_186
+    21300374: SNES - Chrono Trigger - Crono_187
+    21300376: SNES - Chrono Trigger - Crono_188
+    21300378: SNES - Chrono Trigger - Crono_189
+    21300380: SNES - Chrono Trigger - Crono_190
+    21300382: SNES - Chrono Trigger - Crono_191
+    21300384: SNES - Chrono Trigger - Crono_192
+    21300386: SNES - Chrono Trigger - Crono_193
+    21300388: SNES - Chrono Trigger - Crono_194
+    21300390: SNES - Chrono Trigger - Crono_195
+    21300392: SNES - Chrono Trigger - Crono_196
+    21300394: SNES - Chrono Trigger - Crono_197
+    21300396: SNES - Chrono Trigger - Crono_198
+    21300398: SNES - Chrono Trigger - Crono_199
+    21300400: SNES - Chrono Trigger - Crono_200
+    21300402: SNES - Chrono Trigger - Crono_201
+    21300404: SNES - Chrono Trigger - Crono_202
+    21300406: SNES - Chrono Trigger - Crono_203
+    21300408: SNES - Chrono Trigger - Crono_204
+    21300410: SNES - Chrono Trigger - Crono_205
+    21300412: SNES - Chrono Trigger - Crono_206
+    21300414: SNES - Chrono Trigger - Crono_207
+    21300416: SNES - Chrono Trigger - Crono_208
+    21300418: SNES - Chrono Trigger - Crono_209
+    21300420: SNES - Chrono Trigger - Crono_210
+    21300422: SNES - Chrono Trigger - Crono_211
+    21300424: SNES - Chrono Trigger - Crono_212
+    21300426: SNES - Chrono Trigger - Crono_213
+    21300428: SNES - Chrono Trigger - Crono_214
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 25
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 730
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 731
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 731
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 731
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 731
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 731
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_6
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 731
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_7
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 731
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_8
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 731
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_9
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 731
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_10
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 731
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_11
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 731
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_12
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 731
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_13
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 731
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_14
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 731
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_15
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 731
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 713
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 688
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_18
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 688
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_19
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 688
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_20
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 688
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_21
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 688
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_22
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 688
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_23
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 688
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_24
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 688
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_25
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 688
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_26
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 688
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 688
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_28
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 688
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_29
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 688
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 696
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 679
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_32
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 648
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_33
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 648
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_34
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 648
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_35
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 648
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_36
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 648
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_37
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 648
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_38
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 648
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_39
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 648
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_40
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 648
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_41
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 648
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_42
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 648
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_43
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 648
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_44
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 662
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_45
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 648
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_46
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 648
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_47
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 648
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_48
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 643
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_49
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 597
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_50
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 497
+        width: 56
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_51
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 605
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_52
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 605
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_53
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 605
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_54
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 605
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_55
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 605
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_56
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 605
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_57
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 589
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_58
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 589
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_59
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 597
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_60
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 597
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_61
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 563
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_62
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 563
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_63
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 563
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_64
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 563
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_65
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 563
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_66
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 563
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_67
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 541
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_68
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 541
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_69
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 541
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_70
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 541
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_71
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 541
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_72
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 520
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_73
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 520
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_74
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 520
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_75
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 520
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_76
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 520
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_77
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 520
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_78
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 521
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_79
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 521
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_80
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 521
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_81
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 486
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_82
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 486
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_83
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 480
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_84
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 480
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_85
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 480
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_86
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 480
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_87
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 480
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_88
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 480
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_89
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 480
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_90
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 480
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_91
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 486
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_92
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 486
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_93
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 485
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_94
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 343
+        width: 56
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_95
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 438
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_96
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 435
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_97
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 438
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_98
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 434
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_99
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 437
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_100
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 437
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_101
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 437
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_102
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 437
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_103
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 432
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_104
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 438
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_105
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 438
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_106
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 436
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_107
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 435
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_108
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 391
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_109
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 391
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_110
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 391
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_111
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 391
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_112
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 391
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_113
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 391
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_114
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 392
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_115
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 392
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_116
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 392
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_117
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 392
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_118
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 381
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_119
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 350
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_120
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 350
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_121
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 350
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_122
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 350
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_123
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 350
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_124
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 350
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_125
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 350
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_126
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 341
+        width: 14
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_127
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 339
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_128
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 353
+        width: 56
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_129
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 255
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_130
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 310
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_131
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 310
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_132
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 310
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_133
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 310
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_134
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 310
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_135
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 289
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_136
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 289
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_137
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 289
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_138
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 289
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_139
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 272
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_140
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 272
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_141
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 272
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_142
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 272
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_143
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 272
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_144
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 247
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_145
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 247
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_146
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 247
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_147
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 160
+        width: 36
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_148
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 227
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_149
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 227
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_150
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 227
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_151
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 227
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_152
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 227
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_153
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 227
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_154
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 198
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_155
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 206
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_156
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 206
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_157
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 182
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_158
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 182
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_159
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 184
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_160
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 184
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_161
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 185
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_162
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 185
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_163
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_164
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 160
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_165
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 159
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_166
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 159
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_167
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 159
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_168
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 159
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_169
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 144
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_170
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 144
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_171
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 145
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_172
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 151
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_173
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 150
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_174
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 159
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_175
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 101
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_176
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 101
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_177
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 102
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_178
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 102
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_179
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 122
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_180
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 104
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_181
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 122
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_182
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 103
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_183
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 103
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_184
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 116
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_185
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 116
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_186
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 116
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_187
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 81
+        width: 131
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_188
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 102
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_189
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 101
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_190
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 104
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_191
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 104
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_192
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 102
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_193
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 68
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_194
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 68
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_195
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 69
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_196
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 70
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_197
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 70
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_198
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 70
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_199
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 70
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_200
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 68
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_201
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 70
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_202
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 70
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_203
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 70
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_204
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 70
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_205
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 70
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_206
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 70
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_207
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 70
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_208
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 70
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_209
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 70
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_210
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 70
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_211
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 70
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_212
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 70
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_213
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 69
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Crono_214
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2
+        width: 475
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
