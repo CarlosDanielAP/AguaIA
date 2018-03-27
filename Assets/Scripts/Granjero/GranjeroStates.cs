@@ -152,11 +152,13 @@ namespace GranjeroStates
             {
                 Usuario.regando = true;
                 Debug.Log("abierto");
+              granjero.agua.GetComponent<Animator>().SetTrigger("AguaAbierto");
             }
             else
             {
                 Usuario.regando = false;
                 Debug.Log("cerrado");
+                granjero.agua.GetComponent<Animator>().SetTrigger("AguaCerrado");
             }
             granjero.listo = true;
            

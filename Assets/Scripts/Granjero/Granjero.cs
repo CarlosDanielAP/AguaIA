@@ -14,6 +14,8 @@ public class Granjero : MonoBehaviour
     public bool IrRegar;
     public bool listo;
 
+    public GameObject agua;
+
   
 
     void InitGranjeroData()
@@ -22,11 +24,13 @@ public class Granjero : MonoBehaviour
         IrCosechar = false;//variable para mandarlo al mercado cambiar a usuario
         IrRegar = false;
         listo = false;
+        
     }
 
     // Use this for initialization
     void Start()
     {
+        
         InitGranjeroData();
 
         // Hay que hacer la fsm del agente

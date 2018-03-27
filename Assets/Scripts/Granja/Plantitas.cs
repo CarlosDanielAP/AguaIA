@@ -43,10 +43,7 @@ public class Plantitas : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ((Input.touchCount > 0) && (Input.GetTouch(0).phase == TouchPhase.Began))
-    {
-           Debug.Log("touch");
-       }
+       
         //Debug.Log(time);
 
         // StopCoroutine(RegarCoroutine);
@@ -157,7 +154,9 @@ public class Plantitas : MonoBehaviour
         
     }
 
-
+public void hola(){
+    Debug.Log("hola");
+}
 
     public void seleccion()
     {
