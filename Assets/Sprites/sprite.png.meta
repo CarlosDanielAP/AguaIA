@@ -1,30 +1,33 @@
 fileFormatVersion: 2
-guid: 069074fafff514b49b58f841189868ed
-timeCreated: 1522193414
+guid: f1a7a4e63e789a646931212977832554
+timeCreated: 1522192504
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: iconos_0
-    21300002: iconos_1
-    21300004: iconos_2
-    21300006: iconos_3
-    21300008: iconos_4
-    21300010: iconos_5
-    21300012: iconos_6
-    21300014: iconos_7
-    21300016: iconos_8
-    21300018: iconos_9
-    21300020: iconos_10
-    21300022: iconos_11
-    21300024: iconos_12
-    21300026: iconos_13
-    21300028: iconos_14
-    21300030: iconos_15
-    21300032: iconos_16
-    21300034: iconos_17
-    21300036: iconos_18
-    21300038: iconos_19
-    21300040: iconos_20
+    21300000: sprite_0
+    21300002: sprite_1
+    21300004: sprite_2
+    21300006: sprite_3
+    21300008: sprite_4
+    21300010: sprite_5
+    21300012: sprite_6
+    21300014: sprite_7
+    21300016: sprite_8
+    21300018: sprite_9
+    21300020: sprite_10
+    21300022: sprite_11
+    21300024: sprite_12
+    21300026: sprite_13
+    21300028: sprite_14
+    21300030: sprite_15
+    21300032: sprite_16
+    21300034: sprite_17
+    21300036: sprite_18
+    21300038: sprite_19
+    21300040: sprite_20
+    21300042: sprite_21
+    21300044: sprite_22
+    21300046: sprite_23
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -108,13 +111,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: iconos_0
+      name: sprite_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1528
-        width: 323
-        height: 388
+        x: 94
+        y: 1315
+        width: 236
+        height: 441
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -122,13 +125,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_1
+      name: sprite_1
       rect:
         serializedVersion: 2
-        x: 462
-        y: 1502
-        width: 324
-        height: 390
+        x: 448
+        y: 1313
+        width: 236
+        height: 443
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,13 +139,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_2
+      name: sprite_2
       rect:
         serializedVersion: 2
-        x: 1015
-        y: 1502
-        width: 324
-        height: 390
+        x: 779
+        y: 1310
+        width: 236
+        height: 447
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,13 +153,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_3
+      name: sprite_3
       rect:
         serializedVersion: 2
-        x: 1453
-        y: 1499
-        width: 324
-        height: 387
+        x: 1094
+        y: 1318
+        width: 237
+        height: 450
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,13 +167,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_4
+      name: sprite_4
       rect:
         serializedVersion: 2
-        x: 2632
-        y: 1727
-        width: 288
-        height: 250
+        x: 1441
+        y: 1311
+        width: 237
+        height: 454
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,13 +181,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_5
+      name: sprite_5
       rect:
         serializedVersion: 2
-        x: 2147
-        y: 1508
-        width: 220
-        height: 167
+        x: 1762
+        y: 1315
+        width: 236
+        height: 457
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,13 +195,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_6
+      name: sprite_6
       rect:
         serializedVersion: 2
-        x: 2649
-        y: 1351
-        width: 284
-        height: 231
+        x: 2076
+        y: 1309
+        width: 236
+        height: 459
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,13 +209,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_7
+      name: sprite_7
       rect:
         serializedVersion: 2
-        x: 95
-        y: 910
-        width: 325
-        height: 388
+        x: 2400
+        y: 1302
+        width: 236
+        height: 456
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,13 +223,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_8
+      name: sprite_8
       rect:
         serializedVersion: 2
-        x: 529
-        y: 925
-        width: 329
-        height: 390
+        x: 2693
+        y: 1299
+        width: 236
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,13 +237,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_9
+      name: sprite_9
       rect:
         serializedVersion: 2
-        x: 1125
-        y: 906
-        width: 322
-        height: 390
+        x: 3010
+        y: 1294
+        width: 236
+        height: 450
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,13 +251,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_10
+      name: sprite_10
       rect:
         serializedVersion: 2
-        x: 1497
-        y: 903
-        width: 326
-        height: 387
+        x: 138
+        y: 735
+        width: 236
+        height: 448
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,13 +265,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_11
+      name: sprite_11
       rect:
         serializedVersion: 2
-        x: 1898
-        y: 860
-        width: 325
-        height: 388
+        x: 448
+        y: 734
+        width: 236
+        height: 447
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,13 +279,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_12
+      name: sprite_12
       rect:
         serializedVersion: 2
-        x: 2360
-        y: 865
-        width: 325
-        height: 388
+        x: 758
+        y: 731
+        width: 236
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,13 +293,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_13
+      name: sprite_13
       rect:
         serializedVersion: 2
-        x: 2774
-        y: 894
-        width: 323
-        height: 387
+        x: 1094
+        y: 733
+        width: 237
+        height: 456
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,13 +307,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_14
+      name: sprite_14
       rect:
         serializedVersion: 2
-        x: 24
-        y: 160
-        width: 324
-        height: 388
+        x: 1441
+        y: 733
+        width: 237
+        height: 461
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,13 +321,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_15
+      name: sprite_15
       rect:
         serializedVersion: 2
-        x: 462
-        y: 156
-        width: 323
-        height: 388
+        x: 1762
+        y: 733
+        width: 237
+        height: 452
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,13 +335,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_16
+      name: sprite_16
       rect:
         serializedVersion: 2
-        x: 977
-        y: 136
-        width: 351
-        height: 420
+        x: 2104
+        y: 742
+        width: 236
+        height: 447
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,13 +349,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_17
+      name: sprite_17
       rect:
         serializedVersion: 2
-        x: 1418
-        y: 152
-        width: 352
-        height: 421
+        x: 2428
+        y: 735
+        width: 236
+        height: 441
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,13 +363,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_18
+      name: sprite_18
       rect:
         serializedVersion: 2
-        x: 2012
-        y: 115
-        width: 325
-        height: 390
+        x: 2743
+        y: 742
+        width: 237
+        height: 437
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,13 +377,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_19
+      name: sprite_19
       rect:
         serializedVersion: 2
-        x: 2535
-        y: 404
-        width: 255
-        height: 229
+        x: 3045
+        y: 749
+        width: 236
+        height: 437
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -388,13 +391,55 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_20
+      name: sprite_20
       rect:
         serializedVersion: 2
-        x: 2875
-        y: 0
-        width: 240
-        height: 201
+        x: 138
+        y: 166
+        width: 236
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_21
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 167
+        width: 236
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_22
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 166
+        width: 236
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_23
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 153
+        width: 237
+        height: 438
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

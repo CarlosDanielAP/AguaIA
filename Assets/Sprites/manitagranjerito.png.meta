@@ -1,30 +1,25 @@
 fileFormatVersion: 2
-guid: 069074fafff514b49b58f841189868ed
-timeCreated: 1522193414
+guid: c126edc4a80143c4cb0268e900fdda16
+timeCreated: 1522193949
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: iconos_0
-    21300002: iconos_1
-    21300004: iconos_2
-    21300006: iconos_3
-    21300008: iconos_4
-    21300010: iconos_5
-    21300012: iconos_6
-    21300014: iconos_7
-    21300016: iconos_8
-    21300018: iconos_9
-    21300020: iconos_10
-    21300022: iconos_11
-    21300024: iconos_12
-    21300026: iconos_13
-    21300028: iconos_14
-    21300030: iconos_15
-    21300032: iconos_16
-    21300034: iconos_17
-    21300036: iconos_18
-    21300038: iconos_19
-    21300040: iconos_20
+    21300000: manitagranjerito_0
+    21300002: manitagranjerito_1
+    21300004: manitagranjerito_2
+    21300006: manitagranjerito_3
+    21300008: manitagranjerito_4
+    21300010: manitagranjerito_5
+    21300012: manitagranjerito_6
+    21300014: manitagranjerito_7
+    21300016: manitagranjerito_8
+    21300018: manitagranjerito_9
+    21300020: manitagranjerito_10
+    21300022: manitagranjerito_11
+    21300024: manitagranjerito_12
+    21300026: manitagranjerito_13
+    21300028: manitagranjerito_14
+    21300030: manitagranjerito_15
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -108,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: iconos_0
+      name: manitagranjerito_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1528
-        width: 323
-        height: 388
+        x: 89
+        y: 739
+        width: 236
+        height: 439
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -122,13 +117,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_1
+      name: manitagranjerito_1
       rect:
         serializedVersion: 2
-        x: 462
-        y: 1502
-        width: 324
-        height: 390
+        x: 496
+        y: 726
+        width: 239
+        height: 439
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,13 +131,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_2
+      name: manitagranjerito_2
       rect:
         serializedVersion: 2
-        x: 1015
-        y: 1502
-        width: 324
-        height: 390
+        x: 814
+        y: 726
+        width: 245
+        height: 439
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,13 +145,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_3
+      name: manitagranjerito_3
       rect:
         serializedVersion: 2
-        x: 1453
-        y: 1499
-        width: 324
-        height: 387
+        x: 1124
+        y: 713
+        width: 256
+        height: 439
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,13 +159,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_4
+      name: manitagranjerito_4
       rect:
         serializedVersion: 2
-        x: 2632
-        y: 1727
-        width: 288
-        height: 250
+        x: 1449
+        y: 723
+        width: 266
+        height: 437
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,13 +173,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_5
+      name: manitagranjerito_5
       rect:
         serializedVersion: 2
-        x: 2147
-        y: 1508
-        width: 220
-        height: 167
+        x: 1773
+        y: 748
+        width: 278
+        height: 438
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,13 +187,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_6
+      name: manitagranjerito_6
       rect:
         serializedVersion: 2
-        x: 2649
-        y: 1351
-        width: 284
-        height: 231
+        x: 2161
+        y: 747
+        width: 289
+        height: 439
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,13 +201,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_7
+      name: manitagranjerito_7
       rect:
         serializedVersion: 2
-        x: 95
-        y: 910
-        width: 325
-        height: 388
+        x: 2509
+        y: 739
+        width: 299
+        height: 439
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,13 +215,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_8
+      name: manitagranjerito_8
       rect:
         serializedVersion: 2
-        x: 529
-        y: 925
-        width: 329
-        height: 390
+        x: 2885
+        y: 749
+        width: 298
+        height: 439
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,13 +229,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_9
+      name: manitagranjerito_9
       rect:
         serializedVersion: 2
-        x: 1125
-        y: 906
-        width: 322
-        height: 390
+        x: 52
+        y: 145
+        width: 300
+        height: 438
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,13 +243,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_10
+      name: manitagranjerito_10
       rect:
         serializedVersion: 2
-        x: 1497
-        y: 903
-        width: 326
-        height: 387
+        x: 436
+        y: 145
+        width: 299
+        height: 438
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,13 +257,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_11
+      name: manitagranjerito_11
       rect:
         serializedVersion: 2
-        x: 1898
-        y: 860
-        width: 325
-        height: 388
+        x: 788
+        y: 132
+        width: 300
+        height: 438
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,13 +271,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_12
+      name: manitagranjerito_12
       rect:
         serializedVersion: 2
-        x: 2360
-        y: 865
-        width: 325
-        height: 388
+        x: 1151
+        y: 132
+        width: 298
+        height: 438
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,13 +285,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_13
+      name: manitagranjerito_13
       rect:
         serializedVersion: 2
-        x: 2774
-        y: 894
-        width: 323
-        height: 387
+        x: 1483
+        y: 145
+        width: 300
+        height: 438
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,13 +299,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_14
+      name: manitagranjerito_14
       rect:
         serializedVersion: 2
-        x: 24
-        y: 160
-        width: 324
-        height: 388
+        x: 1849
+        y: 145
+        width: 298
+        height: 438
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,83 +313,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: iconos_15
+      name: manitagranjerito_15
       rect:
         serializedVersion: 2
-        x: 462
-        y: 156
-        width: 323
-        height: 388
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: iconos_16
-      rect:
-        serializedVersion: 2
-        x: 977
-        y: 136
-        width: 351
-        height: 420
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: iconos_17
-      rect:
-        serializedVersion: 2
-        x: 1418
-        y: 152
-        width: 352
-        height: 421
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: iconos_18
-      rect:
-        serializedVersion: 2
-        x: 2012
-        y: 115
-        width: 325
-        height: 390
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: iconos_19
-      rect:
-        serializedVersion: 2
-        x: 2535
-        y: 404
-        width: 255
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: iconos_20
-      rect:
-        serializedVersion: 2
-        x: 2875
-        y: 0
-        width: 240
-        height: 201
+        x: 2210
+        y: 157
+        width: 299
+        height: 439
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

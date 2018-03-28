@@ -13,8 +13,10 @@ public class Granjero : MonoBehaviour
     public bool IrCosechar;
     public bool IrRegar;
     public bool listo;
-
+   
     public GameObject agua;
+    public GameObject casa;
+    public GameObject camion;
 
   
 

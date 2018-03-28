@@ -50,7 +50,12 @@ namespace MinerStates
                 fsm.myMono.StopCoroutine(workingCoroutine);
 
                 // Si tiene animacion, la ejecutamos
-                SetAnimationTrigger("BankDeposit");
+                
+                
+
+
+
+                
 
                 ChangeState(StateID.DepositInBank);
             }

@@ -47,6 +47,7 @@ namespace CamionStates
         {
             if (Usuario.mandarCamion)
             {
+                 SetAnimationTrigger("IrTienda");
                 Debug.Log("vamos a entregar");
                 InitBlipState(GlobalStates.GlobalStateID.abastecer);
             }

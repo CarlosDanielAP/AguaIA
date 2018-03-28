@@ -35,13 +35,15 @@ namespace GranjeroStates
             EventManager.StartListening("Cosechar", OnEvent2);
             Debug.Log("soy un bello granjero");
 
+          
+
 
 
 
         }
         public override void Act(GameObject objeto)
         {
-            // if(!cook)
+            
 
 
 
@@ -51,19 +53,21 @@ namespace GranjeroStates
             if (granjero.IrArar)
             {
                 Debug.Log("Granjero: vamos a arar");
+                 SetAnimationTrigger("Irarar");
                 InitBlipState(GlobalStates.GlobalStateID.arar);
                 
             }
             if (granjero.IrCosechar)
             {
                 Debug.Log("Granjero: vamos a cosechar");
+                SetAnimationTrigger("IrCosechar");
                 InitBlipState(GlobalStates.GlobalStateID.cosechar);
                 
             }
 
             if (granjero.IrRegar)
             {
-                
+                SetAnimationTrigger("IrAgua");
                     ChangeState(StateID.Regar);
             }
 
@@ -146,7 +150,7 @@ namespace GranjeroStates
             girando = true;
 
             Debug.Log("girando la llave");
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(8f);
 
             if (!Usuario.regando)
             {

@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace GlobalStates
 {
+   
     public enum GlobalStateID
     {
         abastecer,
@@ -89,6 +90,10 @@ namespace GlobalStates
         }
         public override void OnExit(GameObject objeto)
         {
+
+            if(objeto.name=="Camion"){
+                 SetAnimationTrigger("IrGranja");
+            }
             Debug.Log("Listo la tiendita esta surtida");
 
         }
@@ -137,6 +142,9 @@ namespace GlobalStates
         }
         public override void Reason(GameObject objeto)
         {
+
+            
+             
            
                 if (arando == false)
                 {
@@ -151,6 +159,7 @@ namespace GlobalStates
 
         public override void OnExit(GameObject objeto)
         {
+            
             Debug.Log("terrenolisto");
             
 
@@ -189,7 +198,9 @@ namespace GlobalStates
         {
             Debug.Log("vamos a cosechar");
             cosechando = true;
+             
             fsm.myMono.StartCoroutine(ArarFunction());
+            
         }
         public override void Act(GameObject objeto)
         {
@@ -200,13 +211,12 @@ namespace GlobalStates
         }
         public override void Reason(GameObject objeto)
         {
+            
 
             if (cosechando == false)
             {
-                if (objeto.name == "Granja")
-                {
-                    granja.Cuadrito[granja.cuadritoTrabajando].GetComponent<Plantitas>().sepuedearar = true;
-                }
+              
+
 
                 //si ya termino el tiempo de arado regreso;
                 RevertBlipState();
@@ -236,5 +246,10 @@ namespace GlobalStates
             cosechando = false;
         }
 
+       
+
     }
+
+
+
 }   
