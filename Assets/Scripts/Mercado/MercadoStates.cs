@@ -60,7 +60,7 @@ namespace MercadoStates
 
             if (mercado.comidaMercado <= 0)
             {
-                Debug.Log("yano tengo comida");
+               // Debug.Log("yano tengo comida");
                 EventManager.TriggerEvent("Cerrado");
                 mercado.abierto = false;
                 EventManager.StopListening("Abierto", OnEvent);

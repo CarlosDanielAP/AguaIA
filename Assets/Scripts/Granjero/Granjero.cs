@@ -16,7 +16,7 @@ public class Granjero : MonoBehaviour
    
     public GameObject agua;
     public GameObject casa;
-    public GameObject camion;
+    public GameObject camionsin;
 
   
 

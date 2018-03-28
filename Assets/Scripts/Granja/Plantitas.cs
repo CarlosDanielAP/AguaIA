@@ -63,7 +63,7 @@ public class Plantitas : MonoBehaviour
         {
             if (listoParaCrecer)
             {
-                
+                GetComponent<Animator>().SetTrigger("Germinar");
                 if (!abierto)
                 {
                     Debug.Log("creciendo");
@@ -102,8 +102,9 @@ public class Plantitas : MonoBehaviour
                 time += Time.deltaTime;
             }
 
-            if (time >= 15)
+            if (time >= 30)
             {
+                GetComponent<Animator>().SetTrigger("Muerto");
                 Debug.Log("plantitas muertas che wey");
                 sepuedecosechar = false;
                 sepuedearar = true;
@@ -121,6 +122,9 @@ public class Plantitas : MonoBehaviour
 
         Debug.Log("arando ando...");
         yield return new WaitForSeconds(tiempoArado);
+    
+        GetComponent<Animator>().SetTrigger("Listo");
+        
 
         Debug.Log("listoparacrecer");
         listoParaCrecer = true;
@@ -136,6 +140,7 @@ public class Plantitas : MonoBehaviour
         yield return new WaitForSeconds(tiempo);
         abierto = false;
         Debug.Log("plantitas listas para ser cosechadas");
+        GetComponent<Animator>().SetTrigger("Cosechar");
         //time = 0;
         sepuedecosechar = true;
         listoParaCrecer = false;
@@ -147,16 +152,16 @@ public class Plantitas : MonoBehaviour
 
         Debug.Log("cosechandoando ando...");
         yield return new WaitForSeconds(tiempoArado);
+        GetComponent<Animator>().SetTrigger("Muerto");
 
         Debug.Log("listopara ser arada de nuevo");
+         sepuedearar = true;
         cosechar = false;
       
         
     }
 
-public void hola(){
-    Debug.Log("hola");
-}
+
 
     public void seleccion()
     {

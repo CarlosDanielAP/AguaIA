@@ -51,23 +51,24 @@ namespace CiudadanoStates
         public override void Reason(GameObject objeto)
         {
             if (ciudadano.cansado <= 0) {
+
                 fsm.myMono.StopCoroutine(descansaCoroutine);
                 Debug.Log("Buenos Dias");
                 //si ya descanso pero esta sucio se va a bañar
                 if (ciudadano.sucio >= 5)
                 {
-                    fsm.myMono.StopCoroutine(descansaCoroutine);
+                 
                     InitBlipState(StateID.Banarse);
                 }
                 if (ciudadano.hambre >= 5&&ciudadano.comida>2)//si tiene hambre  y tiene comida va a comer
                 {
-                    fsm.myMono.StopCoroutine(descansaCoroutine);
+                    
                     ChangeState(StateID.Comer);
                 }
 
                 if (ciudadano.comida <= 2)
                 {
-                    fsm.myMono.StopCoroutine(descansaCoroutine);
+                   
                     Debug.Log("vamoa a la tienda");
                     ChangeState(StateID.Comprar);
                 }
@@ -75,7 +76,7 @@ namespace CiudadanoStates
                 //si no esta sucio se queda en casa sin nada que hacer
                 if (ciudadano.enojo >= 5)
                 {
-                    fsm.myMono.StopCoroutine(descansaCoroutine);
+                    Debug.Log("soy cochino");
                     ChangeState(StateID.TirarBasura);
                 }
         
@@ -185,7 +186,7 @@ namespace CiudadanoStates
         IEnumerator showerFunction()
         {
             shower = true;
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2f);
             Debug.Log("cantando en el baño.....");
             ciudadano.sucio--;
 
@@ -523,6 +524,7 @@ namespace CiudadanoStates
         {
             comido = false;
             Debug.Log("usando desechables");
+              SetAnimationTrigger("Basura");
             
 
         }
@@ -556,6 +558,7 @@ namespace CiudadanoStates
         }
         public override void OnExit(GameObject objeto)
         {
+            SetAnimationTrigger("Casa");
             Debug.Log("vamono a casa");
 
         }
@@ -563,7 +566,7 @@ namespace CiudadanoStates
         IEnumerator basuraFunction()
         {
             comido = true;
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(5f);
             Debug.Log("tira tirar");
             ciudadano.enojo--;
             ciudadano.cansado++;
@@ -590,6 +593,9 @@ namespace CiudadanoStates
         private bool comido;
         private bool abierto;
 
+        private bool llegando;
+        private bool viajando;
+
 
         // Una referencia a la corutina
         private Coroutine basuraCoroutine;
@@ -605,9 +611,13 @@ namespace CiudadanoStates
         {
             abierto = false;
             comido = false;
+            llegando=false;
+            viajando=false;
             Debug.Log("hola mercadito");
             EventManager.StartListening("Abierto", OnEvent);
             EventManager.StartListening("Cerrado", OnEvent2);
+            fsm.myMono.StartCoroutine(ViajeFunction());
+             SetAnimationTrigger("Mercado");
 
 
 
@@ -617,6 +627,7 @@ namespace CiudadanoStates
         }
         public override void Act(GameObject objeto)
         {
+            if(llegando){
             if (abierto)
             {
                 Debug.Log("abrido");
@@ -627,12 +638,13 @@ namespace CiudadanoStates
                 }
             }
 
-
+            }
 
 
         }
         public override void Reason(GameObject objeto)
         {
+            if(llegando){
             if (abierto)
             {
                 Debug.Log("yuuuuju comidita");
@@ -641,15 +653,18 @@ namespace CiudadanoStates
                 {
                     //si esta abierto y tiene provisiones suficientes regresa a casa
                     fsm.myMono.StopCoroutine(basuraCoroutine);
-                    ChangeState(StateID.Casa);
+                    SetAnimationTrigger("Casa");
+                   if(viajando==false){
+                    fsm.myMono.StartCoroutine(CasaFunction());
+                    }
                     
                 }
 
 
             }
             if (!abierto)
-            {
-                fsm.myMono.StopCoroutine(basuraCoroutine);
+            {   if(viajando==false){
+                fsm.myMono.StopAllCoroutines();
                 Debug.Log("caray ya esta cerrado");
                 EventManager.StopListening("Cerrado", OnEvent2);
                 if (ciudadano.comida < 15)
@@ -657,10 +672,12 @@ namespace CiudadanoStates
                     ciudadano.enojo++;
                     Debug.Log("melleva la v.....");
                 }
-                ChangeState(StateID.Casa);
+                SetAnimationTrigger("Casa");
+                
+                 fsm.myMono.StartCoroutine(CasaFunction());}
             }
 
-
+            }
            
         }
         public override void OnExit(GameObject objeto)
@@ -668,6 +685,7 @@ namespace CiudadanoStates
             Debug.Log("vamono a casa");
             EventManager.StopListening("Abierto", OnEvent);
             EventManager.StopListening("Cerrado", OnEvent2);
+            
         }
 
         IEnumerator basuraFunction()
@@ -678,20 +696,33 @@ namespace CiudadanoStates
             ciudadano.mercado.GetComponent<Mercado>().comidaMercado--;
            
             Debug.Log("meda un kilito ");
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(5f);
             comido = false;
 
+        }
+
+        IEnumerator ViajeFunction(){
+            yield return new WaitForSeconds(11f);
+            llegando=true;
+        }
+         IEnumerator CasaFunction(){
+             viajando=true;
+             
+            yield return new WaitForSeconds(15f);
+            Debug.Log("hhhhhhhhhhhhhhhhhhhhhhhhhhhh");
+             ChangeState(StateID.Casa);
+           
         }
         public override void OnEvent()
         {
             abierto = true;
-            Debug.Log("probandowea");
+          
         }
 
         public override void OnEvent2()
         {
             abierto = false;
-            Debug.Log("probandowea2");
+          
             EventManager.StopListening("Abierto",OnEvent);
           
         }

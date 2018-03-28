@@ -116,6 +116,7 @@ namespace GlobalStates
     {
         private Granja granja;
         private Granjero granjero;
+        
         private bool arando;
 
         public Arar(Granja _granja)
@@ -183,6 +184,7 @@ namespace GlobalStates
     {
         private Granja granja;
         private Granjero granjero;
+       
         private bool cosechando;
 
         public Cosechar(Granja _granja)
@@ -229,6 +231,12 @@ namespace GlobalStates
 
         public override void OnExit(GameObject objeto)
         {
+
+         if(objeto.name=="Granjero"){
+             granjero.camionsin.GetComponent<Camion>().comidaCamion+=25;
+         }
+
+        
             Debug.Log("todo en el camion mion");
 
 
