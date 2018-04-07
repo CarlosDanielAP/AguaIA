@@ -25,64 +25,78 @@ namespace CiudadanoStates
 
         // Semaforo o candado para tiempos
         private bool descansando;
+        private bool entrar;
+        private bool durmiendo;
+        private bool ocupado;
         // Una referencia a la corutina
         private Coroutine descansaCoroutine;
 
         public Casa(Ciudadano _ciudadano)
         {
-            ciudadano = _ciudadano;
+               ciudadano = _ciudadano;
+            triggerName = "Casa";
+         
+            
         }
 
         public override void OnEnter(GameObject objeto)
-        {
+        {Debug.Log(triggerName+"222222222222222222");
+        
             //abrir el candado
+            ciudadano.ocupado=false;
             descansando = false;
+            durmiendo=true;
+            ocupado=false;
             Debug.Log("llegando a casa");
+           
+          
             
         }
         public override void Act(GameObject objeto)
         {
+            
             if (!descansando)
             {
                 descansaCoroutine = fsm.myMono.StartCoroutine(descansandoFunction());
             }
+            
            
         }
         public override void Reason(GameObject objeto)
         {
-            if (ciudadano.cansado <= 0) {
+            //sucio carrosucio hambre enojo
+            if(!durmiendo){ 
+              
+              if(ciudadano.sucio>=5){
+                  SetAnimationTrigger("Banarse");
+                  fsm.myMono.StopCoroutine(descansaCoroutine);
+                  InitBlipState(StateID.Banarse);
+                  return;
+                  
+              }
+              if(ciudadano.hambre>=5){
+                  SetAnimationTrigger("Comer");
+                  fsm.myMono.StopCoroutine(descansaCoroutine);
+                  ChangeState(StateID.Comer);
+                  return;
+              }
 
-                fsm.myMono.StopCoroutine(descansaCoroutine);
-                Debug.Log("Buenos Dias");
-                //si ya descanso pero esta sucio se va a bañar
-                if (ciudadano.sucio >= 5)
-                {
-                 
-                    InitBlipState(StateID.Banarse);
-                }
-                if (ciudadano.hambre >= 5&&ciudadano.comida>2)//si tiene hambre  y tiene comida va a comer
-                {
-                    
-                    ChangeState(StateID.Comer);
-                }
+             
+              return;
+              
+              }
+               
+               
+               if(ciudadano.enojo>=5){
+                  SetAnimationTrigger("Basura");
+                  fsm.myMono.StopCoroutine(descansaCoroutine);
+                  ChangeState(StateID.TirarBasura);
+                  return;
 
-                if (ciudadano.comida <= 2)
-                {
-                   
-                    Debug.Log("vamoa a la tienda");
-                    ChangeState(StateID.Comprar);
-                }
+              }
+          
 
-                //si no esta sucio se queda en casa sin nada que hacer
-                if (ciudadano.enojo >= 5)
-                {
-                    Debug.Log("soy cochino");
-                    ChangeState(StateID.TirarBasura);
-                }
-        
-
-
-            }
+             
           
         }
         public override void OnExit(GameObject objeto)
@@ -99,6 +113,14 @@ namespace CiudadanoStates
             ciudadano.carrosucio++;
             ciudadano.cansado--;
             descansando = false;
+            if(ciudadano.cansado<=0){
+                durmiendo=false;
+            }
+        }
+        IEnumerator entrarFunction()
+        {
+            yield return new WaitForSeconds(2f);
+            entrar=true;
         }
 
        
@@ -131,6 +153,7 @@ namespace CiudadanoStates
         {
             shower = false;
             Debug.Log("vamo a bañarnos");
+             
 
         }
         public override void Act(GameObject objeto)
@@ -156,6 +179,9 @@ namespace CiudadanoStates
 
                     fsm.myMono.StopCoroutine(ShowerCoroutine);
                     //ya esta limpio mandar a otro estado
+                    Debug.Log(fsm.GetBlipState().triggerName+"33333333333333");
+                 SetAnimationTrigger(fsm.GetBlipState().triggerName);
+
                     RevertBlipState();
 
 
@@ -168,6 +194,7 @@ namespace CiudadanoStates
                 ciudadano.enojo++;
                 fsm.myMono.StopCoroutine(ShowerCoroutine);
                 Debug.Log("nohayagua");
+                SetAnimationTrigger("Casa");
                 ChangeState(StateID.Casa);
 
             }
@@ -226,7 +253,8 @@ namespace CiudadanoStates
         {
             comido = false;
             Debug.Log("que hambre tengo");
-           ciudadano.comida--;
+             
+          
 
         }
         public override void Act(GameObject objeto)
@@ -235,6 +263,16 @@ namespace CiudadanoStates
             if (!comido)
             {
                 EatCoroutine = fsm.myMono.StartCoroutine(EatFunction());
+                 if (ciudadano.comida <= 0)
+            {
+                  fsm.myMono.StopCoroutine(EatCoroutine);
+                Debug.Log("notengo comida");
+                ciudadano.enojo++;
+              
+            SetAnimationTrigger("Mercado");
+                    ChangeState(StateID.Comprar);
+                
+            }
 
             }
 
@@ -245,19 +283,7 @@ namespace CiudadanoStates
         public override void Reason(GameObject objeto)
         {
 
-            if (ciudadano.comida <= 0)
-            {
-                Debug.Log("notengo comida");
-                ciudadano.enojo++;
-                if (ciudadano.platossucios > 0)
-                {
-                    ChangeState(StateID.LavaPlatos);
-                }
-                else
-                {
-                    ChangeState(StateID.Casa);
-                }
-            }
+           
 
             if (ciudadano.hambre <= 0)
                 {
@@ -265,6 +291,7 @@ namespace CiudadanoStates
 
                     fsm.myMono.StopCoroutine(EatCoroutine);
                     //ya no tiene hambre va a lavar los platos
+                    SetAnimationTrigger("Trastes");
                     ChangeState(StateID.LavaPlatos);
 
 
@@ -293,6 +320,7 @@ namespace CiudadanoStates
             ciudadano.hambre--;
             ciudadano.comida--;
             ciudadano.cansado++;
+            ciudadano.platossucios++;
             comido = false;
 
         }
@@ -328,6 +356,7 @@ namespace CiudadanoStates
             comido = false;
             Debug.Log("vamo a limpar los platitos");
             ciudadano.platossucios++;
+           
 
         }
         public override void Act(GameObject objeto)
@@ -355,6 +384,7 @@ namespace CiudadanoStates
                     fsm.myMono.StopCoroutine(platosCoroutine);
                     //ya no tiene platos que lavar
                     Debug.Log("todos los platos estan limpios");
+                    SetAnimationTrigger("Carro");
                     ChangeState(StateID.LavaCarro);
                 }
             }
@@ -368,7 +398,7 @@ namespace CiudadanoStates
                 fsm.myMono.StopCoroutine(platosCoroutine);
                 Debug.Log("no hay agua ptm");
                 ciudadano.enojo++;
-
+SetAnimationTrigger("Casa");
                 ChangeState(StateID.Casa);
             }
 
@@ -412,17 +442,17 @@ namespace CiudadanoStates
         private Coroutine carroCoroutine;
 
         public LavaCarro(Ciudadano _ciudadano)
-        {
+        {  triggerName = "Carro";
             ciudadano = _ciudadano;
         }
 
 
 
-        public override void OnEnter(GameObject objeto)
+             public override void OnEnter(GameObject objeto)
         {
             comido = false;
             Debug.Log("vamo a lavar la nave");
-            
+           
 
         }
         public override void Act(GameObject objeto)
@@ -450,13 +480,17 @@ namespace CiudadanoStates
                     fsm.myMono.StopCoroutine(carroCoroutine);
                     //ya sta limpio su auto
                     Debug.Log("cachin cachin que lindo brilla");
+                    SetAnimationTrigger("Casa");
                     ChangeState(StateID.Casa);
                 }
 
                 if (ciudadano.sucio >= 5)
                 {
+                    SetAnimationTrigger("Banarse");
                     fsm.myMono.StopCoroutine(carroCoroutine);
+                    
                     InitBlipState(StateID.Banarse);
+                   
                 }
                 
             }
@@ -470,7 +504,7 @@ namespace CiudadanoStates
                 fsm.myMono.StopCoroutine(carroCoroutine);
                 Debug.Log("no hay agua micarro estara cochino");
                 ciudadano.enojo++;
-
+                SetAnimationTrigger("Casa");
                 ChangeState(StateID.Casa);
             }
 
@@ -524,7 +558,7 @@ namespace CiudadanoStates
         {
             comido = false;
             Debug.Log("usando desechables");
-              SetAnimationTrigger("Basura");
+             
             
 
         }
@@ -552,13 +586,14 @@ namespace CiudadanoStates
                     fsm.myMono.StopCoroutine(basuraCoroutine);
                     //ya no tiene platos que lavar
                     Debug.Log("ya no tengo mas basura");
+                    SetAnimationTrigger("Casa");
                     ChangeState(StateID.Casa);
                 }
     
         }
         public override void OnExit(GameObject objeto)
         {
-            SetAnimationTrigger("Casa");
+        
             Debug.Log("vamono a casa");
 
         }
@@ -613,11 +648,14 @@ namespace CiudadanoStates
             comido = false;
             llegando=false;
             viajando=false;
+            fsm.myMono.StartCoroutine(ViajeFunction());
             Debug.Log("hola mercadito");
             EventManager.StartListening("Abierto", OnEvent);
             EventManager.StartListening("Cerrado", OnEvent2);
-            fsm.myMono.StartCoroutine(ViajeFunction());
-             SetAnimationTrigger("Mercado");
+            ciudadano.cansado+=10;
+           
+           
+           
 
 
 
@@ -653,7 +691,7 @@ namespace CiudadanoStates
                 {
                     //si esta abierto y tiene provisiones suficientes regresa a casa
                     fsm.myMono.StopCoroutine(basuraCoroutine);
-                    SetAnimationTrigger("Casa");
+                    
                    if(viajando==false){
                     fsm.myMono.StartCoroutine(CasaFunction());
                     }
@@ -672,7 +710,7 @@ namespace CiudadanoStates
                     ciudadano.enojo++;
                     Debug.Log("melleva la v.....");
                 }
-                SetAnimationTrigger("Casa");
+               
                 
                  fsm.myMono.StartCoroutine(CasaFunction());}
             }
@@ -685,6 +723,7 @@ namespace CiudadanoStates
             Debug.Log("vamono a casa");
             EventManager.StopListening("Abierto", OnEvent);
             EventManager.StopListening("Cerrado", OnEvent2);
+            fsm.myMono.StopAllCoroutines();
             
         }
 
@@ -703,19 +742,22 @@ namespace CiudadanoStates
 
         IEnumerator ViajeFunction(){
             yield return new WaitForSeconds(11f);
+            
             llegando=true;
         }
          IEnumerator CasaFunction(){
              viajando=true;
-             
+              SetAnimationTrigger("Casa");
             yield return new WaitForSeconds(15f);
             Debug.Log("hhhhhhhhhhhhhhhhhhhhhhhhhhhh");
+           
              ChangeState(StateID.Casa);
            
         }
         public override void OnEvent()
         {
             abierto = true;
+            EventManager.StopListening("Cerrado",OnEvent);
           
         }
 

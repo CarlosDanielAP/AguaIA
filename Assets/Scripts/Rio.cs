@@ -10,10 +10,15 @@ public class Rio : MonoBehaviour {
     public int contaminacion;
     public Text Basura;
     public Text Contaminacion;
+    private bool wait;
+    private int limpia;
+    private bool trabajar;
 
    void InitRioData()
     {
-        contaminacion = 50;
+        contaminacion = 0;
+        wait=false;
+        trabajar=false;
     }
 
 	// Use this for initialization
@@ -28,8 +33,41 @@ public class Rio : MonoBehaviour {
 	void Update () {
         Basura.text = basura.ToString();
         Contaminacion.text = contaminacion.ToString();
+      if(trabajar){
+          if(limpia>=0){
+              if(wait==false){
+                  StartCoroutine(limpiarFunction());
+                  limpia--;
+              }
+          }
+
+      }
 		
 	}
+
+    public void limpiar(){
+        if(basura>0){
+        trabajar=false;
+        limpia++;
+        basura--;
+        Debug.Log(limpia);
+        trabajar=true;
+        }
+       
+        
+    }
+
+      IEnumerator limpiarFunction()
+        {
+           
+
+            wait=true;
+            yield return new WaitForSeconds(1f);
+            if(contaminacion>0){
+            contaminacion--;}
+          
+            wait=false;
+        }
 
    
 }

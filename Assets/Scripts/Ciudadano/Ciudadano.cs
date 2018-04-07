@@ -11,6 +11,7 @@ public class Ciudadano : MonoBehaviour
   
    
     public int hambre;
+    public bool ocupado;
     public int sucio;
     public int cansado;
     public GameObject noria;
@@ -26,7 +27,7 @@ public class Ciudadano : MonoBehaviour
     {
        
         hambre = 5;
-        sucio = 50;
+        sucio = 5;
         cansado = 5;
         platossucios = 0;
         enojo=0;
